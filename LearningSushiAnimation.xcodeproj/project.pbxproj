@@ -14,6 +14,7 @@
 		B251652A2BDE6205006EBC51 /* BreathAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25165292BDE6205006EBC51 /* BreathAnimationView.swift */; };
 		B251652E2BDE642B006EBC51 /* FlyingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B251652D2BDE642B006EBC51 /* FlyingAnimationView.swift */; };
 		B25165302BDE6575006EBC51 /* SwingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B251652F2BDE6575006EBC51 /* SwingAnimationView.swift */; };
+		B29EF4682BDEA1A80031CBE7 /* FloatingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29EF4672BDEA1A80031CBE7 /* FloatingAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B25165292BDE6205006EBC51 /* BreathAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathAnimationView.swift; sourceTree = "<group>"; };
 		B251652D2BDE642B006EBC51 /* FlyingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingAnimationView.swift; sourceTree = "<group>"; };
 		B251652F2BDE6575006EBC51 /* SwingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingAnimationView.swift; sourceTree = "<group>"; };
+		B29EF4672BDEA1A80031CBE7 /* FloatingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				B25165292BDE6205006EBC51 /* BreathAnimationView.swift */,
 				B251652D2BDE642B006EBC51 /* FlyingAnimationView.swift */,
 				B251652F2BDE6575006EBC51 /* SwingAnimationView.swift */,
+				B29EF4672BDEA1A80031CBE7 /* FloatingAnimationView.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B251652E2BDE642B006EBC51 /* FlyingAnimationView.swift in Sources */,
+				B29EF4682BDEA1A80031CBE7 /* FloatingAnimationView.swift in Sources */,
 				B25165302BDE6575006EBC51 /* SwingAnimationView.swift in Sources */,
 				B251652A2BDE6205006EBC51 /* BreathAnimationView.swift in Sources */,
 				B251651D2BDE6177006EBC51 /* ContentView.swift in Sources */,
