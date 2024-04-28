@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    let column = Array(repeating: GridItem(.fixed(120)), count: 2)
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        LazyVGrid(columns: column, spacing: 20) {
+            BreathAnimationView()
+            FlyingAnimationView()
+            SwingAnimationView()
         }
-        .padding()
     }
 }
 

@@ -20,7 +20,7 @@ struct FlyingAnimationView: View {
                 let repeated = baseAnimation.repeatForever(autoreverses: true)
 
                 withAnimation(repeated) {
-                    flyingOffset = CGSize(width: 0, height: 26)
+                    flyingOffset = CGSize(width: 0, height: -24)
                 }
             }
             
