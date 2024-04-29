@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B21494A82BDF213D006E3692 /* OpacityAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21494A72BDF213D006E3692 /* OpacityAnimationView.swift */; };
+		B217837B2BDFB00C004B345A /* ChallengeFail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B217837A2BDFB00C004B345A /* ChallengeFail.swift */; };
 		B251651B2BDE6177006EBC51 /* LearningSushiAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B251651A2BDE6177006EBC51 /* LearningSushiAnimationApp.swift */; };
 		B251651D2BDE6177006EBC51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B251651C2BDE6177006EBC51 /* ContentView.swift */; };
 		B251651F2BDE6178006EBC51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B251651E2BDE6178006EBC51 /* Assets.xcassets */; };
@@ -14,10 +16,13 @@
 		B251652A2BDE6205006EBC51 /* BreathAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25165292BDE6205006EBC51 /* BreathAnimationView.swift */; };
 		B251652E2BDE642B006EBC51 /* FlyingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B251652D2BDE642B006EBC51 /* FlyingAnimationView.swift */; };
 		B25165302BDE6575006EBC51 /* SwingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B251652F2BDE6575006EBC51 /* SwingAnimationView.swift */; };
+		B25B63D62BDFA6D400A1A3EB /* ChallengeSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25B63D52BDFA6D400A1A3EB /* ChallengeSuccess.swift */; };
 		B29EF4682BDEA1A80031CBE7 /* FloatingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29EF4672BDEA1A80031CBE7 /* FloatingAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B21494A72BDF213D006E3692 /* OpacityAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityAnimationView.swift; sourceTree = "<group>"; };
+		B217837A2BDFB00C004B345A /* ChallengeFail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeFail.swift; sourceTree = "<group>"; };
 		B25165172BDE6177006EBC51 /* LearningSushiAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSushiAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B251651A2BDE6177006EBC51 /* LearningSushiAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSushiAnimationApp.swift; sourceTree = "<group>"; };
 		B251651C2BDE6177006EBC51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		B25165292BDE6205006EBC51 /* BreathAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathAnimationView.swift; sourceTree = "<group>"; };
 		B251652D2BDE642B006EBC51 /* FlyingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingAnimationView.swift; sourceTree = "<group>"; };
 		B251652F2BDE6575006EBC51 /* SwingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingAnimationView.swift; sourceTree = "<group>"; };
+		B25B63D52BDFA6D400A1A3EB /* ChallengeSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeSuccess.swift; sourceTree = "<group>"; };
 		B29EF4672BDEA1A80031CBE7 /* FloatingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +65,7 @@
 		B25165192BDE6177006EBC51 /* LearningSushiAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B25B63D42BDFA43C00A1A3EB /* View */,
 				B25165282BDE61F6006EBC51 /* Animation */,
 				B251651A2BDE6177006EBC51 /* LearningSushiAnimationApp.swift */,
 				B251651C2BDE6177006EBC51 /* ContentView.swift */,
@@ -83,8 +90,18 @@
 				B251652D2BDE642B006EBC51 /* FlyingAnimationView.swift */,
 				B251652F2BDE6575006EBC51 /* SwingAnimationView.swift */,
 				B29EF4672BDEA1A80031CBE7 /* FloatingAnimationView.swift */,
+				B21494A72BDF213D006E3692 /* OpacityAnimationView.swift */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		B25B63D42BDFA43C00A1A3EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B25B63D52BDFA6D400A1A3EB /* ChallengeSuccess.swift */,
+				B217837A2BDFB00C004B345A /* ChallengeFail.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,12 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21494A82BDF213D006E3692 /* OpacityAnimationView.swift in Sources */,
 				B251652E2BDE642B006EBC51 /* FlyingAnimationView.swift in Sources */,
 				B29EF4682BDEA1A80031CBE7 /* FloatingAnimationView.swift in Sources */,
 				B25165302BDE6575006EBC51 /* SwingAnimationView.swift in Sources */,
 				B251652A2BDE6205006EBC51 /* BreathAnimationView.swift in Sources */,
+				B25B63D62BDFA6D400A1A3EB /* ChallengeSuccess.swift in Sources */,
 				B251651D2BDE6177006EBC51 /* ContentView.swift in Sources */,
 				B251651B2BDE6177006EBC51 /* LearningSushiAnimationApp.swift in Sources */,
+				B217837B2BDFB00C004B345A /* ChallengeFail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

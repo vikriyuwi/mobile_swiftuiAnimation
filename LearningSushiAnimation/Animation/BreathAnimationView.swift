@@ -13,8 +13,8 @@ struct BreathAnimationView: View {
         Image("AvaDefault")
             .resizable()
             .scaledToFit()
-            .scaleEffect(breathScale)
             .frame(width: 100, height: 100)
+            .scaleEffect(breathScale)
             .onAppear {
                 let baseAnimation = Animation.spring(duration: 2)
                 let repeated = baseAnimation.repeatForever(autoreverses: true)
