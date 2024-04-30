@@ -16,6 +16,7 @@
 		B251652A2BDE6205006EBC51 /* BreathAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25165292BDE6205006EBC51 /* BreathAnimationView.swift */; };
 		B251652E2BDE642B006EBC51 /* FlyingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B251652D2BDE642B006EBC51 /* FlyingAnimationView.swift */; };
 		B25165302BDE6575006EBC51 /* SwingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B251652F2BDE6575006EBC51 /* SwingAnimationView.swift */; };
+		B253BAA32BE0952200D81FD3 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B253BAA22BE0952200D81FD3 /* Timer.swift */; };
 		B25B63D62BDFA6D400A1A3EB /* ChallengeSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25B63D52BDFA6D400A1A3EB /* ChallengeSuccess.swift */; };
 		B29EF4682BDEA1A80031CBE7 /* FloatingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29EF4672BDEA1A80031CBE7 /* FloatingAnimationView.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,7 @@
 		B25165292BDE6205006EBC51 /* BreathAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathAnimationView.swift; sourceTree = "<group>"; };
 		B251652D2BDE642B006EBC51 /* FlyingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingAnimationView.swift; sourceTree = "<group>"; };
 		B251652F2BDE6575006EBC51 /* SwingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingAnimationView.swift; sourceTree = "<group>"; };
+		B253BAA22BE0952200D81FD3 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		B25B63D52BDFA6D400A1A3EB /* ChallengeSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeSuccess.swift; sourceTree = "<group>"; };
 		B29EF4672BDEA1A80031CBE7 /* FloatingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +102,7 @@
 			children = (
 				B25B63D52BDFA6D400A1A3EB /* ChallengeSuccess.swift */,
 				B217837A2BDFB00C004B345A /* ChallengeFail.swift */,
+				B253BAA22BE0952200D81FD3 /* Timer.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				B21494A82BDF213D006E3692 /* OpacityAnimationView.swift in Sources */,
 				B251652E2BDE642B006EBC51 /* FlyingAnimationView.swift in Sources */,
 				B29EF4682BDEA1A80031CBE7 /* FloatingAnimationView.swift in Sources */,
+				B253BAA32BE0952200D81FD3 /* Timer.swift in Sources */,
 				B25165302BDE6575006EBC51 /* SwingAnimationView.swift in Sources */,
 				B251652A2BDE6205006EBC51 /* BreathAnimationView.swift in Sources */,
 				B25B63D62BDFA6D400A1A3EB /* ChallengeSuccess.swift in Sources */,

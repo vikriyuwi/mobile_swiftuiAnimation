@@ -13,8 +13,8 @@ struct SwingAnimationView: View {
         Image("AvaDefault")
             .resizable()
             .scaledToFit()
-            .rotationEffect(swing)
             .frame(width: 100, height: 100)
+            .rotationEffect(swing)
             .onAppear {
                 let baseAnimation = Animation.easeInOut(duration: 1)
                 let repeated = baseAnimation.repeatForever(autoreverses: true)
