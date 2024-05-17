@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct BreathAnimationView: View {
+    // add this var
     @State var breathScale:Double = 0.9
+    
+    
     var body: some View {
         Image("AvaDefault")
             .resizable()
             .scaledToFit()
             .frame(width: 100, height: 100)
+        
+            // add this line
             .scaleEffect(breathScale)
             .onAppear {
                 let baseAnimation = Animation.spring(duration: 2)
@@ -23,6 +28,7 @@ struct BreathAnimationView: View {
                     breathScale = 1
                 }
             }
+            // to this line
             
     }
 }

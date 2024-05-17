@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct FloatingAnimationView: View {
+    // add this var
     @State var swing:Angle = Angle(degrees: -10)
     @State var floating:CGSize = CGSize(width: 0, height: -5)
+    
     var body: some View {
         Image("AvaDefault")
             .resizable()
             .scaledToFit()
+        
+            // add this line
             .offset(floating)
             .rotationEffect(swing)
             .frame(width: 100, height: 100)
@@ -33,6 +37,7 @@ struct FloatingAnimationView: View {
                     floating = CGSize(width: 0, height: 5)
                 }
             }
+            // to this line
             
     }
 }
